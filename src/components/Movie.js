@@ -5,7 +5,7 @@ const Movie = (props) => {
     return (
         <div>
             <h3>{props.data.title}</h3>
-            <img src={image} alt={props.data.title} />
+            <img src={image} alt={props.data.title} id={props.id} onClick={props.onClick} />
         </div>
     )
 }
